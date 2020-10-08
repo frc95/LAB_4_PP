@@ -1,0 +1,12 @@
+<h2>Nombre: {{name}}</h2>
+<h2>url: {{url}}</h2>
+<div *ngFor="let item of imagenes">
+    <img src="{{item}}" alt="">  
+</div>
+<h2>Habilidades:</h2>
+<div *ngFor="let item of habilidades">
+    <h2>{{item.ability.name}}</h2>
+</div>
+
+
+
